@@ -72,6 +72,26 @@ footer a {
 .profile-skills, .Education {
     background-color: rgba(83, 78, 78, 15%);
 }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  padding: 15px 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.profile-image:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.social-media:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
   
 
 /* Style inputs with type="text", select elements and textareas */
@@ -164,8 +184,8 @@ input[type=text], select, textarea {
   }
   
   .html {width: 70%; background-color: #626ae2;}
-  .css {width: 70%; background-color: #626ae2;}
-  .js {width: 65%; background-color: #626ae2;}
+  .ts {width: 60%; background-color: #626ae2;}
+  .js {width: 70%; background-color: #626ae2;}
   .Csharp {width: 60%; background-color: #626ae2;}
   .python {width: 60%; background-color: #626ae2;}
   .MySql {width: 60%; background-color: #626ae2;}
@@ -176,11 +196,11 @@ input[type=text], select, textarea {
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 700px) {
+  /*@media screen and (max-width: 700px) {
     .column {
        width: 100%;
     }
-  }
+  }*/
 
   @media screen and (max-width: 700px) {
     .header a {
@@ -192,5 +212,9 @@ input[type=text], select, textarea {
     
     .header-right {
       float: none;
+    }
+
+    .column {
+      width: 100%;
     }
   }
